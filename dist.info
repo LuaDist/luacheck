@@ -1,0 +1,15 @@
+--- This file is part of LuaDist project
+
+name = "luacheck"
+version = "0.16.1"
+
+desc = "A static analyzer and a linter for Lua"
+author = " Peter Melnichenko"
+license = "MIT"
+url = "https://github.com/mpeterv/luacheck"
+maintainer = "Peter Kapec"
+
+depends = {
+  "lua >= 5.1",
+  "luafilesystem >= 1.6.3"
+}
